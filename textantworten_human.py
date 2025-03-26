@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Datei einlesen (Pfad ggf. anpassen)
-file_path = "ai_labelled.csv"
+file_path = "human_labelled_with_ati.csv"
 df = pd.read_csv(file_path, encoding="utf-8", low_memory=False)
 
 # Hier die Namen der relevanten Text-Spalten eintragen
